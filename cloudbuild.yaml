@@ -89,4 +89,7 @@ steps:
         echo "Branch 'prod' does not represent an oficial environment."
         echo "*******************************************************************************"
       fi
+ options:
+ logging: CLOUD_LOGGING_ONLY
+ serviceAccount: 'projects/pkhushalani-dev/serviceAccounts/test-588@pkhushalani-dev.iam.gserviceaccount.com'
 # [END tf-apply]      
