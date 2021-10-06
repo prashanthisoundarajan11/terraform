@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "my-bucket" {
-  name          = "tf-toc-demo-test-00"
+  name          = "tf-demo-cloudbuild"
   location      = "US"
   project       = "pkhushalani-dev"
 
